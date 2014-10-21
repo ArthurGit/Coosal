@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15427B3619F68BB600CB67A5"
-               BuildableName = "Coosal-Menu.app"
-               BlueprintName = "Coosal-Menu"
-               ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+               BlueprintIdentifier = "15427B6719F68DFC00CB67A5"
+               BuildableName = "Coosal-Sale.app"
+               BlueprintName = "Coosal-Sale"
+               ReferencedContainer = "container:Coosal-Sale.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15427B4E19F68BB800CB67A5"
-               BuildableName = "Coosal-MenuTests.xctest"
-               BlueprintName = "Coosal-MenuTests"
-               ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+               BlueprintIdentifier = "15427B7C19F68DFD00CB67A5"
+               BuildableName = "Coosal-SaleTests.xctest"
+               BlueprintName = "Coosal-SaleTests"
+               ReferencedContainer = "container:Coosal-Sale.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15427B4E19F68BB800CB67A5"
-               BuildableName = "Coosal-MenuTests.xctest"
-               BlueprintName = "Coosal-MenuTests"
-               ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+               BlueprintIdentifier = "15427B7C19F68DFD00CB67A5"
+               BuildableName = "Coosal-SaleTests.xctest"
+               BlueprintName = "Coosal-SaleTests"
+               ReferencedContainer = "container:Coosal-Sale.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15427B3619F68BB600CB67A5"
-            BuildableName = "Coosal-Menu.app"
-            BlueprintName = "Coosal-Menu"
-            ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+            BlueprintIdentifier = "15427B6719F68DFC00CB67A5"
+            BuildableName = "Coosal-Sale.app"
+            BlueprintName = "Coosal-Sale"
+            ReferencedContainer = "container:Coosal-Sale.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15427B3619F68BB600CB67A5"
-            BuildableName = "Coosal-Menu.app"
-            BlueprintName = "Coosal-Menu"
-            ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+            BlueprintIdentifier = "15427B6719F68DFC00CB67A5"
+            BuildableName = "Coosal-Sale.app"
+            BlueprintName = "Coosal-Sale"
+            ReferencedContainer = "container:Coosal-Sale.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15427B3619F68BB600CB67A5"
-            BuildableName = "Coosal-Menu.app"
-            BlueprintName = "Coosal-Menu"
-            ReferencedContainer = "container:Coosal-Menu.xcodeproj">
+            BlueprintIdentifier = "15427B6719F68DFC00CB67A5"
+            BuildableName = "Coosal-Sale.app"
+            BlueprintName = "Coosal-Sale"
+            ReferencedContainer = "container:Coosal-Sale.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
