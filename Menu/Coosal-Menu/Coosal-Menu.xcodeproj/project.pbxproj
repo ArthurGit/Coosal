@@ -7,48 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15427B3D19F68BB600CB67A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15427B3C19F68BB600CB67A5 /* AppDelegate.swift */; };
-		15427B4019F68BB700CB67A5 /* Coosal_Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15427B3E19F68BB700CB67A5 /* Coosal_Menu.xcdatamodeld */; };
-		15427B4219F68BB700CB67A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15427B4119F68BB700CB67A5 /* ViewController.swift */; };
-		15427B4519F68BB700CB67A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15427B4319F68BB700CB67A5 /* Main.storyboard */; };
-		15427B4719F68BB700CB67A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15427B4619F68BB700CB67A5 /* Images.xcassets */; };
-		15427B4A19F68BB700CB67A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15427B4819F68BB700CB67A5 /* LaunchScreen.xib */; };
-		15427B5619F68BB800CB67A5 /* Coosal_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15427B5519F68BB800CB67A5 /* Coosal_MenuTests.swift */; };
+		C632473319F69CFB00B8D7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C632473219F69CFB00B8D7FE /* main.m */; };
+		C632473619F69CFB00B8D7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C632473519F69CFB00B8D7FE /* AppDelegate.m */; };
+		C632473919F69CFB00B8D7FE /* Coosal_Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C632473719F69CFB00B8D7FE /* Coosal_Menu.xcdatamodeld */; };
+		C632473C19F69CFB00B8D7FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C632473B19F69CFB00B8D7FE /* ViewController.m */; };
+		C632473F19F69CFB00B8D7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C632473D19F69CFB00B8D7FE /* Main.storyboard */; };
+		C632474119F69CFB00B8D7FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C632474019F69CFB00B8D7FE /* Images.xcassets */; };
+		C632474419F69CFB00B8D7FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C632474219F69CFB00B8D7FE /* LaunchScreen.xib */; };
+		C632475019F69CFB00B8D7FE /* Coosal_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C632474F19F69CFB00B8D7FE /* Coosal_MenuTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15427B5019F68BB800CB67A5 /* PBXContainerItemProxy */ = {
+		C632474A19F69CFB00B8D7FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 15427B2F19F68BB600CB67A5 /* Project object */;
+			containerPortal = C632472519F69CFB00B8D7FE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15427B3619F68BB600CB67A5;
+			remoteGlobalIDString = C632472C19F69CFB00B8D7FE;
 			remoteInfo = "Coosal-Menu";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15427B3719F68BB600CB67A5 /* Coosal-Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coosal-Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15427B3B19F68BB600CB67A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15427B3C19F68BB600CB67A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15427B3F19F68BB700CB67A5 /* Coosal_Menu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coosal_Menu.xcdatamodel; sourceTree = "<group>"; };
-		15427B4119F68BB700CB67A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15427B4419F68BB700CB67A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15427B4619F68BB700CB67A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		15427B4919F68BB700CB67A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		15427B4F19F68BB800CB67A5 /* Coosal-MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coosal-MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15427B5419F68BB800CB67A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15427B5519F68BB800CB67A5 /* Coosal_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coosal_MenuTests.swift; sourceTree = "<group>"; };
+		C632472D19F69CFB00B8D7FE /* Coosal-Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coosal-Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C632473119F69CFB00B8D7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C632473219F69CFB00B8D7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C632473419F69CFB00B8D7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C632473519F69CFB00B8D7FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C632473819F69CFB00B8D7FE /* Coosal_Menu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coosal_Menu.xcdatamodel; sourceTree = "<group>"; };
+		C632473A19F69CFB00B8D7FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C632473B19F69CFB00B8D7FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C632473E19F69CFB00B8D7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C632474019F69CFB00B8D7FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C632474319F69CFB00B8D7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C632474919F69CFB00B8D7FE /* Coosal-MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coosal-MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C632474E19F69CFB00B8D7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C632474F19F69CFB00B8D7FE /* Coosal_MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coosal_MenuTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15427B3419F68BB600CB67A5 /* Frameworks */ = {
+		C632472A19F69CFB00B8D7FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15427B4C19F68BB800CB67A5 /* Frameworks */ = {
+		C632474619F69CFB00B8D7FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15427B2E19F68BB600CB67A5 = {
+		C632472419F69CFB00B8D7FE = {
 			isa = PBXGroup;
 			children = (
-				15427B3919F68BB600CB67A5 /* Coosal-Menu */,
-				15427B5219F68BB800CB67A5 /* Coosal-MenuTests */,
-				15427B3819F68BB600CB67A5 /* Products */,
+				C632472F19F69CFB00B8D7FE /* Coosal-Menu */,
+				C632474C19F69CFB00B8D7FE /* Coosal-MenuTests */,
+				C632472E19F69CFB00B8D7FE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		15427B3819F68BB600CB67A5 /* Products */ = {
+		C632472E19F69CFB00B8D7FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15427B3719F68BB600CB67A5 /* Coosal-Menu.app */,
-				15427B4F19F68BB800CB67A5 /* Coosal-MenuTests.xctest */,
+				C632472D19F69CFB00B8D7FE /* Coosal-Menu.app */,
+				C632474919F69CFB00B8D7FE /* Coosal-MenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15427B3919F68BB600CB67A5 /* Coosal-Menu */ = {
+		C632472F19F69CFB00B8D7FE /* Coosal-Menu */ = {
 			isa = PBXGroup;
 			children = (
-				15427B3C19F68BB600CB67A5 /* AppDelegate.swift */,
-				15427B4119F68BB700CB67A5 /* ViewController.swift */,
-				15427B4319F68BB700CB67A5 /* Main.storyboard */,
-				15427B4619F68BB700CB67A5 /* Images.xcassets */,
-				15427B4819F68BB700CB67A5 /* LaunchScreen.xib */,
-				15427B3E19F68BB700CB67A5 /* Coosal_Menu.xcdatamodeld */,
-				15427B3A19F68BB600CB67A5 /* Supporting Files */,
+				C632473419F69CFB00B8D7FE /* AppDelegate.h */,
+				C632473519F69CFB00B8D7FE /* AppDelegate.m */,
+				C632473A19F69CFB00B8D7FE /* ViewController.h */,
+				C632473B19F69CFB00B8D7FE /* ViewController.m */,
+				C632473D19F69CFB00B8D7FE /* Main.storyboard */,
+				C632474019F69CFB00B8D7FE /* Images.xcassets */,
+				C632474219F69CFB00B8D7FE /* LaunchScreen.xib */,
+				C632473719F69CFB00B8D7FE /* Coosal_Menu.xcdatamodeld */,
+				C632473019F69CFB00B8D7FE /* Supporting Files */,
 			);
 			path = "Coosal-Menu";
 			sourceTree = "<group>";
 		};
-		15427B3A19F68BB600CB67A5 /* Supporting Files */ = {
+		C632473019F69CFB00B8D7FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15427B3B19F68BB600CB67A5 /* Info.plist */,
+				C632473119F69CFB00B8D7FE /* Info.plist */,
+				C632473219F69CFB00B8D7FE /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		15427B5219F68BB800CB67A5 /* Coosal-MenuTests */ = {
+		C632474C19F69CFB00B8D7FE /* Coosal-MenuTests */ = {
 			isa = PBXGroup;
 			children = (
-				15427B5519F68BB800CB67A5 /* Coosal_MenuTests.swift */,
-				15427B5319F68BB800CB67A5 /* Supporting Files */,
+				C632474F19F69CFB00B8D7FE /* Coosal_MenuTests.m */,
+				C632474D19F69CFB00B8D7FE /* Supporting Files */,
 			);
 			path = "Coosal-MenuTests";
 			sourceTree = "<group>";
 		};
-		15427B5319F68BB800CB67A5 /* Supporting Files */ = {
+		C632474D19F69CFB00B8D7FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15427B5419F68BB800CB67A5 /* Info.plist */,
+				C632474E19F69CFB00B8D7FE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15427B3619F68BB600CB67A5 /* Coosal-Menu */ = {
+		C632472C19F69CFB00B8D7FE /* Coosal-Menu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15427B5919F68BB800CB67A5 /* Build configuration list for PBXNativeTarget "Coosal-Menu" */;
+			buildConfigurationList = C632475319F69CFB00B8D7FE /* Build configuration list for PBXNativeTarget "Coosal-Menu" */;
 			buildPhases = (
-				15427B3319F68BB600CB67A5 /* Sources */,
-				15427B3419F68BB600CB67A5 /* Frameworks */,
-				15427B3519F68BB600CB67A5 /* Resources */,
+				C632472919F69CFB00B8D7FE /* Sources */,
+				C632472A19F69CFB00B8D7FE /* Frameworks */,
+				C632472B19F69CFB00B8D7FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +139,46 @@
 			);
 			name = "Coosal-Menu";
 			productName = "Coosal-Menu";
-			productReference = 15427B3719F68BB600CB67A5 /* Coosal-Menu.app */;
+			productReference = C632472D19F69CFB00B8D7FE /* Coosal-Menu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15427B4E19F68BB800CB67A5 /* Coosal-MenuTests */ = {
+		C632474819F69CFB00B8D7FE /* Coosal-MenuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15427B5C19F68BB800CB67A5 /* Build configuration list for PBXNativeTarget "Coosal-MenuTests" */;
+			buildConfigurationList = C632475619F69CFB00B8D7FE /* Build configuration list for PBXNativeTarget "Coosal-MenuTests" */;
 			buildPhases = (
-				15427B4B19F68BB800CB67A5 /* Sources */,
-				15427B4C19F68BB800CB67A5 /* Frameworks */,
-				15427B4D19F68BB800CB67A5 /* Resources */,
+				C632474519F69CFB00B8D7FE /* Sources */,
+				C632474619F69CFB00B8D7FE /* Frameworks */,
+				C632474719F69CFB00B8D7FE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15427B5119F68BB800CB67A5 /* PBXTargetDependency */,
+				C632474B19F69CFB00B8D7FE /* PBXTargetDependency */,
 			);
 			name = "Coosal-MenuTests";
 			productName = "Coosal-MenuTests";
-			productReference = 15427B4F19F68BB800CB67A5 /* Coosal-MenuTests.xctest */;
+			productReference = C632474919F69CFB00B8D7FE /* Coosal-MenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		15427B2F19F68BB600CB67A5 /* Project object */ = {
+		C632472519F69CFB00B8D7FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Coosal;
 				TargetAttributes = {
-					15427B3619F68BB600CB67A5 = {
-						CreatedOnToolsVersion = 6.1;
+					C632472C19F69CFB00B8D7FE = {
+						CreatedOnToolsVersion = 6.0.1;
 					};
-					15427B4E19F68BB800CB67A5 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 15427B3619F68BB600CB67A5;
+					C632474819F69CFB00B8D7FE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C632472C19F69CFB00B8D7FE;
 					};
 				};
 			};
-			buildConfigurationList = 15427B3219F68BB600CB67A5 /* Build configuration list for PBXProject "Coosal-Menu" */;
+			buildConfigurationList = C632472819F69CFB00B8D7FE /* Build configuration list for PBXProject "Coosal-Menu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 15427B2E19F68BB600CB67A5;
-			productRefGroup = 15427B3819F68BB600CB67A5 /* Products */;
+			mainGroup = C632472419F69CFB00B8D7FE;
+			productRefGroup = C632472E19F69CFB00B8D7FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15427B3619F68BB600CB67A5 /* Coosal-Menu */,
-				15427B4E19F68BB800CB67A5 /* Coosal-MenuTests */,
+				C632472C19F69CFB00B8D7FE /* Coosal-Menu */,
+				C632474819F69CFB00B8D7FE /* Coosal-MenuTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15427B3519F68BB600CB67A5 /* Resources */ = {
+		C632472B19F69CFB00B8D7FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15427B4519F68BB700CB67A5 /* Main.storyboard in Resources */,
-				15427B4A19F68BB700CB67A5 /* LaunchScreen.xib in Resources */,
-				15427B4719F68BB700CB67A5 /* Images.xcassets in Resources */,
+				C632473F19F69CFB00B8D7FE /* Main.storyboard in Resources */,
+				C632474419F69CFB00B8D7FE /* LaunchScreen.xib in Resources */,
+				C632474119F69CFB00B8D7FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15427B4D19F68BB800CB67A5 /* Resources */ = {
+		C632474719F69CFB00B8D7FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +218,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15427B3319F68BB600CB67A5 /* Sources */ = {
+		C632472919F69CFB00B8D7FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15427B4219F68BB700CB67A5 /* ViewController.swift in Sources */,
-				15427B3D19F68BB600CB67A5 /* AppDelegate.swift in Sources */,
-				15427B4019F68BB700CB67A5 /* Coosal_Menu.xcdatamodeld in Sources */,
+				C632473619F69CFB00B8D7FE /* AppDelegate.m in Sources */,
+				C632473919F69CFB00B8D7FE /* Coosal_Menu.xcdatamodeld in Sources */,
+				C632473C19F69CFB00B8D7FE /* ViewController.m in Sources */,
+				C632473319F69CFB00B8D7FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15427B4B19F68BB800CB67A5 /* Sources */ = {
+		C632474519F69CFB00B8D7FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15427B5619F68BB800CB67A5 /* Coosal_MenuTests.swift in Sources */,
+				C632475019F69CFB00B8D7FE /* Coosal_MenuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15427B5119F68BB800CB67A5 /* PBXTargetDependency */ = {
+		C632474B19F69CFB00B8D7FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15427B3619F68BB600CB67A5 /* Coosal-Menu */;
-			targetProxy = 15427B5019F68BB800CB67A5 /* PBXContainerItemProxy */;
+			target = C632472C19F69CFB00B8D7FE /* Coosal-Menu */;
+			targetProxy = C632474A19F69CFB00B8D7FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15427B4319F68BB700CB67A5 /* Main.storyboard */ = {
+		C632473D19F69CFB00B8D7FE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15427B4419F68BB700CB67A5 /* Base */,
+				C632473E19F69CFB00B8D7FE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		15427B4819F68BB700CB67A5 /* LaunchScreen.xib */ = {
+		C632474219F69CFB00B8D7FE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15427B4919F68BB700CB67A5 /* Base */,
+				C632474319F69CFB00B8D7FE /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		15427B5719F68BB800CB67A5 /* Debug */ = {
+		C632475119F69CFB00B8D7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,16 +301,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		15427B5819F68BB800CB67A5 /* Release */ = {
+		C632475219F69CFB00B8D7FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -338,7 +345,7 @@
 			};
 			name = Release;
 		};
-		15427B5A19F68BB800CB67A5 /* Debug */ = {
+		C632475419F69CFB00B8D7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -348,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		15427B5B19F68BB800CB67A5 /* Release */ = {
+		C632475519F69CFB00B8D7FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,7 +365,7 @@
 			};
 			name = Release;
 		};
-		15427B5D19F68BB800CB67A5 /* Debug */ = {
+		C632475719F69CFB00B8D7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		15427B5E19F68BB800CB67A5 /* Release */ = {
+		C632475819F69CFB00B8D7FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,45 +402,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15427B3219F68BB600CB67A5 /* Build configuration list for PBXProject "Coosal-Menu" */ = {
+		C632472819F69CFB00B8D7FE /* Build configuration list for PBXProject "Coosal-Menu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15427B5719F68BB800CB67A5 /* Debug */,
-				15427B5819F68BB800CB67A5 /* Release */,
+				C632475119F69CFB00B8D7FE /* Debug */,
+				C632475219F69CFB00B8D7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15427B5919F68BB800CB67A5 /* Build configuration list for PBXNativeTarget "Coosal-Menu" */ = {
+		C632475319F69CFB00B8D7FE /* Build configuration list for PBXNativeTarget "Coosal-Menu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15427B5A19F68BB800CB67A5 /* Debug */,
-				15427B5B19F68BB800CB67A5 /* Release */,
+				C632475419F69CFB00B8D7FE /* Debug */,
+				C632475519F69CFB00B8D7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		15427B5C19F68BB800CB67A5 /* Build configuration list for PBXNativeTarget "Coosal-MenuTests" */ = {
+		C632475619F69CFB00B8D7FE /* Build configuration list for PBXNativeTarget "Coosal-MenuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15427B5D19F68BB800CB67A5 /* Debug */,
-				15427B5E19F68BB800CB67A5 /* Release */,
+				C632475719F69CFB00B8D7FE /* Debug */,
+				C632475819F69CFB00B8D7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		15427B3E19F68BB700CB67A5 /* Coosal_Menu.xcdatamodeld */ = {
+		C632473719F69CFB00B8D7FE /* Coosal_Menu.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				15427B3F19F68BB700CB67A5 /* Coosal_Menu.xcdatamodel */,
+				C632473819F69CFB00B8D7FE /* Coosal_Menu.xcdatamodel */,
 			);
-			currentVersion = 15427B3F19F68BB700CB67A5 /* Coosal_Menu.xcdatamodel */;
+			currentVersion = C632473819F69CFB00B8D7FE /* Coosal_Menu.xcdatamodel */;
 			path = Coosal_Menu.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 15427B2F19F68BB600CB67A5 /* Project object */;
+	rootObject = C632472519F69CFB00B8D7FE /* Project object */;
 }
